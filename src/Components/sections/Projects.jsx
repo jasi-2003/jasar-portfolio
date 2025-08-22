@@ -18,7 +18,7 @@ export const Projects = () => {
         "Built a responsive and modern UI using React, Bootstrap, and Tailwind CSS, ensuring smooth usability across devices.",
       ],
       tech: ["Python", "Django", "SQLite", "HTML", "CSS", "Bootstrap"],
-      link: "#",
+      link: "https://github.com/jasi-2003/Nearest_Doctor_Booking.git",
     },
   ];
 
