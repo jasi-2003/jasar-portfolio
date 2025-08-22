@@ -9,7 +9,7 @@ export const Projects = () => {
         "Created a responsive and visually appealing interface using HTML, CSS, Bootstrap, and Tailwind CSS to ensure cross-device compatibility and an intuitive shopping experience.",
       ],
       tech: ["Python", "Django", "SQLite", "HTML", "CSS", "Bootstrap"],
-      link: "#",
+      link: "https://github.com/jasi-2003/ecommerce.git",
     },
     {
       title: "Nearest Doctor Booking",
@@ -29,12 +29,12 @@ export const Projects = () => {
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
-          {/* Section Heading */}
+       
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-red-500 to-pink-400 bg-clip-text text-transparent text-center">
             Featured Projects
           </h2>
 
-          {/* Projects Grid */}
+       
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-red-100">
             {projects.map((project, idx) => (
               <div
@@ -51,7 +51,7 @@ export const Projects = () => {
                   ))}
                 </ul>
 
-                {/* Tech Stack */}
+             
                 <div className="flex flex-wrap gap-2 mt-4">
                   {project.tech.map((tech, key) => (
                     <span
@@ -63,7 +63,7 @@ export const Projects = () => {
                   ))}
                 </div>
 
-                {/* Link */}
+             
                 <div className="flex justify-between items-center">
                   <a
                     href={project.link}
