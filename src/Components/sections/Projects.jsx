@@ -17,7 +17,7 @@ export const Projects = () => {
         "Designed and developed a doctor booking platform allowing users to find the nearest available doctors, book appointments, and manage schedules seamlessly.",
         "Built a responsive and modern UI using React, Bootstrap, and Tailwind CSS, ensuring smooth usability across devices.",
       ],
-      tech: ["Python", "Django", "SQLite", "HTML", "CSS", "Bootstrap"],
+      tech: ["Python", "Anaconda", "SQLite", "HTML", "CSS", "Bootstrap"],
       link: "https://github.com/jasi-2003/Nearest_Doctor_Booking.git",
     },
   ];

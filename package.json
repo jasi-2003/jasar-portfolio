@@ -1,6 +1,6 @@
 {
   "name": "jasar-portfolio",
-  "homepage":"https://github.com/jasi-2003/jasar-portfolio",
+  "homepage": "https://jasi-2003.github.io/jasar-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploye":"npm run build",
-    "deploy":"gh-page -d dist"
+    "predeploye": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.12",
